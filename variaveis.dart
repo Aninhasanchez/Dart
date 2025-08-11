@@ -1,5 +1,4 @@
 main(){
-
 int igs = 2; 
 print(igs);
 
