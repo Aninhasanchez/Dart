@@ -15,5 +15,11 @@ var texto = "O valor da soma é : ";
 
 print(a + b);
 
+print(igs.runtimeType);
+print(a.runtimeType);
+print(b.runtimeType);
+print(texto.runtimeType);
+
+print(a is int);
 }
 
