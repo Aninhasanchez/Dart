@@ -21,5 +21,16 @@ print(b.runtimeType);
 print(texto.runtimeType);
 
 print(a is int);
+
+//Pode ser usado quando uma variavel puder assumir tipos diferentes dentro do seu código 
+dynamic igs_3 = "Definindo um Tipo de variavel dinâmico";
+print(igs_3);
+print(igs_3.runtimeType);
+
+igs_3 = true;
+
+print(igs_3.runtimeType);
+
+
 }
 
