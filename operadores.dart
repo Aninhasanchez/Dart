@@ -45,6 +45,36 @@ main(){
   a *= 2; //multiplica o valor de a por 2. é o mesmo que a = a * 2
   print('$a' + ' imprimindo valor de a multiplicando por 2 que neste caso estava valendo 16 e agora 32');
 
+  //incremento de 1 em 1
+  print('Valor de a antes do incremento:' + '$a');
+  a++; // soma 1 ao valor de a
+  print('Valor de a depois do incremento:' + '$a');
+
+  //decremento de 1 em 1
+  print('Valor de a antes do decremento: ' + '$a');
+  a--; // subtrai 1 ao valor de a
+  print('Valor de a depois do decremento: ' + '$a');
+
+
+  //operadores de comparação
+  print("Operadores de comparação");
+  print(a > b); //Comparando maior que
+  print(a < b); //Comparando menor que
+  print(a == b); //Comparando igual
+  print(a != b); //Comparando diferente
+
+
+  //comparando string
+  var primeira_string = "olá Muito Boa Tarde";
+  var segunda_string = "olá Muito Boa Tarde";
+  var terceira_string = "olá Muito Boa Tarde";
+
+  if (primeira_string == segunda_string){
+    print('A primeira e segunda string são iguais');
+    
+  }
+
+
 
 
 
