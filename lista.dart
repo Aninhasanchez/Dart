@@ -28,7 +28,9 @@ tipos_sensores.add('Contador');
 print(tipos_sensores);
 
 tipos_sensores.removeAt(4);
+print(tipos_sensores);
 
 tipos_sensores.remove('Umidade');
+print(tipos_sensores);
 
 }
