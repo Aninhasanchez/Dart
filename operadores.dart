@@ -84,14 +84,20 @@ main(){
 
   // operadores lógicos AND e OR
   //operador E -> &&
+  //operador OR -> ||
   var sensor_umidade = true;
-  var sensor_chuva = true;
+  var sensor_chuva = false;
 
-  if (sensor_umidade && sensor_chuva){
-    print("Os dois valores são verdadeiros");
-    print('$sensor_chuva' + ' E ' + '$sensor_umidade');
+  // if (sensor_umidade && sensor_chuva){
+  //   print("Os dois valores são verdadeiros");
+  //   print('$sensor_chuva' + ' E ' + '$sensor_umidade');
+  // }
+
+
+  if (sensor_chuva || sensor_umidade){
+    print("Pelo menos um dos valores é verdadeiro");
+    print('$sensor_chuva' + ' OU ' + '$sensor_umidade');
   }
-
 
 
 
