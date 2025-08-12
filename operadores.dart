@@ -33,7 +33,14 @@ main(){
   print(1234 / 100 * 34.5);
 
   print(1940 / 100 * 8);
-  
+
+  //operadores embutidos
+  //$ transformar int em string
+  a += 10; //Soma 10 ao valor atual. é o mesmo que a = a + 10
+  print('$a' + 'imprimindo valor de a somado de 10');
+
+  b -= 4; //Subtrai 4 ao valor atual 
+
 
 
 }
