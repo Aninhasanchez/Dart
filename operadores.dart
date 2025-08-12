@@ -13,6 +13,7 @@ main(){
   print(a - b);
 
   // divisão
+  print("Divisao");
   print(a / b);
   print(b / a);
 
