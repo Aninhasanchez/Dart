@@ -18,7 +18,7 @@ main(){
 
   //multiplicação
   print(a * b);
-  print(b * a);
+
 
 
 }
