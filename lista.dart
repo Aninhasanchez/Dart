@@ -11,4 +11,6 @@ main(){
 
   ];
 
+print(tipos_sensores);
+
 }
