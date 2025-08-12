@@ -18,7 +18,10 @@ String S2 = S1.substring(0, 6); //o primeiro numero indica em qual caracter vou 
 print(S2);         
 
 String S3 = S2.toUpperCase();
-print(S3);  
+print(S3);
+
+String S4 = S3.padLeft(3, '-');
+print(S4);
 
 }
 
