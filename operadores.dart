@@ -16,5 +16,9 @@ main(){
   print(a / b);
   print(b / a);
 
+  //multiplicação
+  print(a * b);
+  print(b * a);
+
 
 }
