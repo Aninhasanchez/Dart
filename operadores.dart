@@ -65,13 +65,20 @@ main(){
 
 
   //comparando string
-  var primeira_string = "olá Muito Boa Tarde";
+  var primeira_string = "Olá Muito Boa Tarde";
   var segunda_string = "olá Muito Boa Tarde";
-  var terceira_string = "olá Muito Boa Tarde";
+  var terceira_string = "olá muito boa tarde";
 
   if (primeira_string == segunda_string){
     print('A primeira e segunda string são iguais');
     
+  }
+
+  if (terceira_string == segunda_string){
+    print('A segunda string e terceira string são iguais');
+  } else {
+    print('A segunda string e terceira string NÃO são iguais');
+
   }
 
 
