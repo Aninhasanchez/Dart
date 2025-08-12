@@ -30,7 +30,10 @@ var sensores_medida = {
 };
 print(sensores_medida);
 
+//Para saber o tamanho do MAP
 print(sensores_medida.length);
 
+// para acessar todas as chaves
+print(sensores_medida.keys);
 
 }
