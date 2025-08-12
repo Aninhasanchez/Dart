@@ -36,4 +36,7 @@ print(sensores_medida.length);
 // para acessar todas as chaves
 print(sensores_medida.keys);
 
+// para acessar todas as chaves
+print(sensores_medida.values);
+
 }
