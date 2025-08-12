@@ -15,8 +15,10 @@ String S1 = "Sorria e Seja feliz Sempre!!!";
 String S2 = S1.substring(0, 6); //o primeiro numero indica em qual caracter vou começar 
                                 //o segundo numero indica quantos caracteres pegar a partir do indicado
 
-print(S2);                        
+print(S2);         
 
+String S3 = S2.toUpperCase();
+print(S3);  
 
 }
 
