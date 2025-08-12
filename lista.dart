@@ -25,9 +25,9 @@ var tipos_sensores = ['Umidade', 'Temperatura', 'Contador', 'Luminosidade', 'Umi
 
 //Uma lista aceita repetição. Mostrando como add um item repetido
 tipos_sensores.add('Contador');
-print(tipos_sensores);
+print(tipos_sensores); 
 
-tipos_sensores.removeAt(4);
+tipos_sensores.removeAt(2);
 print(tipos_sensores);
 
 tipos_sensores.remove('Umidade');
