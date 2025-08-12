@@ -20,7 +20,7 @@ print(S2);
 String S3 = S2.toUpperCase();
 print(S3);
 
-String S4 = S3.padLeft(3, '-');
+String S4 = S3.padRight(3);
 print(S4);
 
 }
