@@ -2,15 +2,20 @@
 
 main(){
 
-  List tipos_sensores = [
-    'Umidade',
-    'Temperatura',
-    'Contador',
-    'Luminosidade',
-    'Umidade do Solo'
+//   List tipos_sensores = [
+//     'Umidade',
+//     'Temperatura',
+//     'Contador',
+//     'Luminosidade',
+//     'Umidade do Solo'
 
-  ];
+//   ];
 
-print(tipos_sensores);
+// print(tipos_sensores);
+
+var tipos_sensores = ['Umidade', 'Temperatura', 'Contador', 'Luminosidade', 'Umidade do Solo'];
+
+//Para saber o tamanho da lista
+print(tipos_sensores.length);
 
 }
