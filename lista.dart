@@ -27,4 +27,6 @@ var tipos_sensores = ['Umidade', 'Temperatura', 'Contador', 'Luminosidade', 'Umi
 tipos_sensores.add('Contador');
 print(tipos_sensores);
 
+tipos_sensores.removeAt(5);
+
 }
