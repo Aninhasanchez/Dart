@@ -24,7 +24,16 @@ String S4 = S3.padRight(3);
 print(S4);
 
 //exemplo de como encadear varias notacoes ponto de uma só vez
-var igs = "Sorria e Seja Feliz Sempre!!!";
+var igs = "Sorria e Seja Feliz Sempre!!!"
+
+  .substring(0, 4)
+  .toUpperCase()
+  .padLeft(6, '-')
+  .padRight(8, '-');
+
+print(igs);
+
+
 }
 
 
