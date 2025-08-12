@@ -20,6 +20,10 @@ main(){
   //multiplicação
   print(a * b);
 
+  //pega o resto da divisão
+  print(33 % 2);
+  print(45 % 3);
+  print(47 % 2);
 
 
 }
