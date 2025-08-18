@@ -58,7 +58,13 @@ main(){
       print("Tipo de sensor: ${sensores_medida_map[sensor]}");
     }
 
-
+    //exemplo 4 - for pegando o registro inteiro
+    print("Exemplo 4 ------------");
+    print("Imprimindo o registro inteiro com chave e valor");
+    for (var registro in sensores_medida_map.entries){
+      print("${registro.key} : ${registro.value}");
+    }
+  
 
 
 }
