@@ -21,12 +21,12 @@ main(){
 
   //exemplo de for in para percorrer uma lista
   //criar uma lista usando colchetes
-  List tipos_sensores = ['Umidade', 'Temperatura', 'Contador', 'Luminosidade'];
-  for (var sensor  in tipos_sensores){
-    print('Tipos de Sensor: $sensor');
-  }
+  // List tipos_sensores = ['Umidade', 'Temperatura', 'Contador', 'Luminosidade'];
+  // for (var sensor  in tipos_sensores){
+  //   print('Tipos de Sensor: $sensor');
+  // }
 
-  
+
 
 
 
