@@ -26,6 +26,10 @@ main(){
   //   print('Tipos de Sensor: $sensor');
   // }
 
+  //exemplo de for sem valor numérico
+  for (var valor = '#'; valor != '########'; valor += '#'){
+    print(valor);
+  }
 
 
 
