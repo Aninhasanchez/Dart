@@ -44,11 +44,11 @@ main(){
   //   print('tipos de sensor: $tipo_sensor');
   // }
 
-    print("------------------");
-  print('Imprimindo os dados armazenados nas chaves');
-  for (String valor_sensor in sensores_medida_map.values);{
-    print('tipos de sensor: $valor_sensor');
-  }
+  //   print("------------------");
+  // print('Imprimindo os dados armazenados nas chaves');
+  // for (String valor_sensor in sensores_medida_map.values);{
+  //   print('tipos de sensor: $valor_sensor');
+  // }
 
 
 
