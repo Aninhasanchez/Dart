@@ -27,10 +27,28 @@ main(){
   // }
 
   //exemplo de for sem valor numérico
-  for (var valor = '#'; valor != '########'; valor += '#'){
-    print(valor);
-  }
+  // for (var valor = '#'; valor != '########'; valor += '#'){
+  //   print(valor);
+  // }
 
+  Map<String, double> sensores_medida_map = {
+    'Umidade_map': 80,
+    'Temperatura_map': 23,
+    'Contador_map': 1234,
+    'Luminosidade_map': 500,
+  };
+  
+  // print("------------------");
+  // print('Imprimindo os dados armazenados nas chaves');
+  // for (String tipo_sensor in sensores_medida_map.keys);{
+  //   print('tipos de sensor: $tipo_sensor');
+  // }
+
+    print("------------------");
+  print('Imprimindo os dados armazenados nas chaves');
+  for (String valor_sensor in sensores_medida_map.values);{
+    print('tipos de sensor: $valor_sensor');
+  }
 
 
 
