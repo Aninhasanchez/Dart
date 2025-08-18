@@ -14,10 +14,10 @@ main(){
   // print('já sai do laço for');
 
   //exemplo de decremento de 1 em 1
-  for (int igs = 10; igs >= 0; igs = igs - 1){
-    print('valor de igs = $igs');
-  }
-  print('ja sai do laço for');
+  // for (int igs = 10; igs >= 0; igs = igs - 1){
+  //   print('valor de igs = $igs');
+  // }
+  // print('ja sai do laço for');
 
   //exemplo de for in para percorrer uma lista
   //criar uma lista usando colchetes
