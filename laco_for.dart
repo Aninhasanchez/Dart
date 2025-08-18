@@ -38,21 +38,21 @@ main(){
     'Luminosidade_map': 500,
   };
   //exemplo 1 - for percorrendo o Map e pegando os keys
-  // print("------------------");
+  // print("exemplo 1------------------");
   // print('Imprimindo os dados armazenados nas chaves');
   // for (String tipo_sensor in sensores_medida_map.keys);{
   //   print('tipos de sensor: $tipo_sensor');
   // }
 
   //exemplo 2 - for percorrendo o Map e pegando os values
-  //   print("------------------");
+  //   print("exemplo 2------------------");
   // print('Imprimindo os dados armazenados nas chaves');
   // for (String valor_sensor in sensores_medida_map.values);{
   //   print('tipos de sensor: $valor_sensor');
   // }
 
   //exemplo 3 - for pegando os values a partir das keys
-    print("------------------");
+    print("exemplo 3------------------");
     print("Imprimindo os valores a apartir das chaves");
     for (String sensor in sensores_medida_map.keys){
       print("Tipo de sensor: ${sensores_medida_map[sensor]}");
