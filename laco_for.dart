@@ -21,6 +21,7 @@ main(){
 
   //exemplo de for in para percorrer uma lista
   //criar uma lista usando colchetes
+  
   // List tipos_sensores = ['Umidade', 'Temperatura', 'Contador', 'Luminosidade'];
   // for (var sensor  in tipos_sensores){
   //   print('Tipos de Sensor: $sensor');
@@ -37,6 +38,7 @@ main(){
     'Contador_map': 1234,
     'Luminosidade_map': 500,
   };
+
   //exemplo 1 - for percorrendo o Map e pegando os keys
   // print("exemplo 1------------------");
   // print('Imprimindo os dados armazenados nas chaves');
