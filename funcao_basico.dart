@@ -3,8 +3,8 @@ main(){
   var a = "Hoje é dia";
   int diaDoMes = now.day;
 
-  // exemploFuncaoSemParametro();
-  
+  exemploFuncaoSemParametro();
+
  exemploFuncaoComParametro(a, diaDoMes);
 
 }
