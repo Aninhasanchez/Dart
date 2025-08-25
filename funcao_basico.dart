@@ -18,6 +18,8 @@ void exemploFuncaoSemParametro(){
 
 }
 
-void exemploFuncaoComParametro(a, diaDoMes){
-  
+void exemploFuncaoComParametro(String a, var b){
+
+  print()
+
 }
