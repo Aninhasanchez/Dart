@@ -6,10 +6,10 @@ main(){
   int diaDoMes = now.day;
 
   //Chamando função 01
-  exemploFuncaoSemParametro();
+  // exemploFuncaoSemParametro();
   
   //Chamando função 02
-   exemploFuncaoComParametro(a, diaDoMes);
+  //  exemploFuncaoComParametro(a, diaDoMes);
 
   //Chamando função 03
   print(exemploRetornaResultadoConta(28, 4, 2));
