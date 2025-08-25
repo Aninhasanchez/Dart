@@ -16,7 +16,7 @@ main(){
   //  exemploFuncaoComParametro(a, diaDoMes);
 
   //Chamando função 03
-  print(exemploRetornaResultadoConta(28, 4, 2));
+  // print(exemploRetornaResultadoConta(28, 4, 2));
 
   //Chamando função 04 com parametro
   // var resultado = multiplica(a, b);
@@ -30,9 +30,6 @@ main(){
   //ou seja, como nao estou passando o parametro "b" ele 
   // var resultado = multiplica(a);
   // print('Resultado da multiplicaçao: $resultado');
-
-
-
 
 
 }
