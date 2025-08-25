@@ -1,17 +1,14 @@
-//EXERCICIO 07
 main(){
 
-
+//EXERCICIO 07
 void saudar(String nome) {
   print("Olá, $nome!");
 }
-
 
 //EXERCICIO 08
 int soma(int a, int b) {
   return a + b;
 }
-
 
 //EXERCICIO 09
 int multiplica(int a, {int b = 2}) {
