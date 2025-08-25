@@ -1,6 +1,11 @@
 main(){
+  DateTime now = DateTime.now();
+  var a = "Hoje é dia";
+  int diaDoMes = now.day;
+  
 
-  exemploFuncaoSemParametro();
+  // exemploFuncaoSemParametro();
+ exemploFuncaoComParametro(a, diaDoMes);
 
 }
 
@@ -10,5 +15,9 @@ main(){
 void exemploFuncaoSemParametro(){
 
   print('Olá Muito Boa Tarde a Todos e Todas !!!');
+
+}
+
+void exemploFuncaoComParametro(a, diaDoMes){
   
 }
