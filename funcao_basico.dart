@@ -3,7 +3,7 @@ main(){
   var a = "Hoje é dia";
   int diaDoMes = now.day;
 
-  exemploFuncaoSemParametro();
+  // exemploFuncaoSemParametro();
 
  exemploFuncaoComParametro(a, diaDoMes);
 
@@ -11,13 +11,14 @@ main(){
 
 //criando uma função que não retorna nada
 //e não recebe parametro
-
 void exemploFuncaoSemParametro(){
 
   print('Olá Muito Boa Tarde a Todos e Todas !!!');
 
 }
 
+//Criando função que recebe parametro
+//e nao retorna nada. Apenas executa
 void exemploFuncaoComParametro(String a, var b){
 
   print('$a $b');
