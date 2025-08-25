@@ -2,9 +2,9 @@ main(){
   DateTime now = DateTime.now();
   var a = "Hoje é dia";
   int diaDoMes = now.day;
-  
 
   // exemploFuncaoSemParametro();
+  
  exemploFuncaoComParametro(a, diaDoMes);
 
 }
@@ -20,6 +20,6 @@ void exemploFuncaoSemParametro(){
 
 void exemploFuncaoComParametro(String a, var b){
 
-  print()
+  print('$a $b');
 
 }
