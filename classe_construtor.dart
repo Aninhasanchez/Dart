@@ -4,7 +4,7 @@ class Data {
   int mes = 1;
   int ano = 1980;
 
-
+}
 
 //Chamando a classe Data
 main(){
@@ -17,5 +17,4 @@ main(){
   
   print("Data de Ativação do sensor: ${dataAtivacao.dia}/${dataAtivacao.mes}/${dataAtivacao.ano}");
 
-}
 }
