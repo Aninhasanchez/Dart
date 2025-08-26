@@ -8,6 +8,12 @@ class Data {
     print("$dia/$mes/$ano");
   }
 
+  //criando um metodo que retorna algo ao invés de fazer algo
+  //Neste caso esse metodo vai retornar uma string com data formatada
+  String obterDataFormatadaComString(){
+    return "$dia/$mes/$ano";
+  }
+
 }
 
 //Chamando a classe Data
@@ -32,7 +38,17 @@ main(){
 
   print("Data da ultima Leitura do Sensor: ${dataLeitura.dia}/${dataLeitura.mes}/${dataLeitura.ano}");
 
-  //Acessando o metodo(Função) criando 
+  //Acessando o metodo(Função) criando na classe
+  // dataAtivacao.obterDataFormatada();
+  // dataLeitura.obterDataFormatada();
+
+  //acessando o metodo que retorna uma string de data formatada
+  String d1 = dataAtivacao.obterDataFormatadaComString();
+  String d2 = dataLeitura.obterDataFormatadaComString();
+  print("Data de ativação do sensor: $d1");
+  print("Data de leitura do sensor: $d2");
+
+  
   
 
 }
