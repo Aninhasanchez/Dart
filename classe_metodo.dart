@@ -48,7 +48,11 @@ main(){
   print("Data de ativação do sensor: $d1");
   print("Data de leitura do sensor: $d2");
 
-  
+  //Mostrando que a chamada mostra uma instacia do objeto
+  print(dataAtivacao);
+  print(dataLeitura);
+
+
   
 
 }
