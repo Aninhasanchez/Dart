@@ -1,8 +1,8 @@
 main(){
 
 
-  int a = 6;
-  int b = 9;
+  // int a = 6;
+  // int b = 9;
 
   //Variaveis declaradas e usadas na função 02
   // DateTime now = DateTime.now();

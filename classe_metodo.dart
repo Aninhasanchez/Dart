@@ -51,8 +51,6 @@ main(){
   //Mostrando que a chamada mostra uma instacia do objeto
   print(dataAtivacao);
   print(dataLeitura);
-
-
   
 
 }
