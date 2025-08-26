@@ -60,10 +60,10 @@ int exemploRetornaResultadoConta(int a, int b, int c){
 
 //Função 04 - Passando parametro de modo opcional
 //Passar o parametro dentro do colchete significa que o parametro é opcional
-double multiplica([int multiplicador_a = 0, int multiplicador_b = 12]){
-  print('O multiplicador_a vale: $multiplicador_a');
-  print('O multiplicador_b vale: $multiplicador_b');
-  return (multiplicador_a * multiplicador_b) .toDouble();
-}
+// double multiplica([int multiplicador_a = 0, int multiplicador_b = 12]){
+//   print('O multiplicador_a vale: $multiplicador_a');
+//   print('O multiplicador_b vale: $multiplicador_b');
+//   return (multiplicador_a * multiplicador_b) .toDouble();
+// }
 
 }
