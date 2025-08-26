@@ -10,7 +10,7 @@ class LivroAna {
       : titulo = "Livro da Aninha",
         autor = "Ana Luisa Sanchez",
         anoPublicacao = 2025,
-        preco = 1234;
+        preco = 4962;
 
   void exibirDetalhesAna() {
     print("Livro de Aninha: $titulo por $autor");
@@ -18,7 +18,7 @@ class LivroAna {
 
   double calcularDescontoAna(double percentual) {
     double precoComDesconto = preco - (preco * percentual / 100);
-    print("Preço com desconto para Ana: R\$ $precoComDesconto");
+    print("Preço com desconto para Aninha: R\$ $precoComDesconto");
     return precoComDesconto;
   }
 }
@@ -34,6 +34,7 @@ class LivroDigitalAna extends LivroAna {
 }
 
 
+
 //Exercicio 02
 class VeiculoAna {
   String marca;
@@ -45,15 +46,15 @@ class VeiculoAna {
       : marca = "Honda",
         modelo = "Civic",
         ano = 2021,
-        valor = 20 * 1000; // idade * 1000
+        valor = 21 * 1000; // idade * 1000
 
   String exibirInfoAna() {
-    return "Ana tem um $marca $modelo";
+    return "Aninha tem um $marca $modelo";
   }
 
   double calcularIPVAAna() {
     double ipva = valor * 0.03;
-    print("IPVA de Ana: R\$ $ipva");
+    print("IPVA de Aninha: R\$ $ipva");
     return ipva;
   }
 }
@@ -61,10 +62,10 @@ class VeiculoAna {
 class CarroAna extends VeiculoAna {
   int numeroPortas;
 
-  CarroAna() : numeroPortas = "Ana".replaceAll(RegExp(r'[^aeiouAEIOU]'), '').length, super();
+  CarroAna() : numeroPortas = "Ana Luisa".replaceAll(RegExp(r'[^aeiouAEIOU]'), '').length, super();
 
   String tipoAnaCarro() {
-    if (valor < 10000) {
+    if (valor < 20000) {
       return "Ana - Carro Popular";
     } else {
       return "Ana - Carro Luxo";
