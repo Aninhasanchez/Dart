@@ -34,7 +34,6 @@ class LivroDigitalAna extends LivroAna {
 }
 
 
-
 //Exercicio 02
 class VeiculoAna {
   String marca;
@@ -74,6 +73,7 @@ class CarroAna extends VeiculoAna {
 }
 
 
+
 void main() {
   // Exercício 1
   var livro = LivroAna();
@@ -83,7 +83,9 @@ void main() {
   var livroDigital = LivroDigitalAna();
   livroDigital.infoAnaDownload();
 
+
   print("==================================");
+
 
   // Exercício 2
   var veiculo = VeiculoAna();
